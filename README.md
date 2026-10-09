@@ -1,12 +1,9 @@
-# Logging Distribuido — Proyecto Penguin Academy
-
-"Los sistemas caen. Los logs sobreviven." — proverbio DevOps
+# Logging Distribuido
 
 ## ¿Qué es esto?
 
 Un servidor central de logging hecho con Flask.
-Varios servicios (reales o simulados) le mandan sus errores y mensajes en formato JSON, y este servidor los guarda en una base SQLite para que nada se pierda.
-
+Varios servicios (simulados) le mandan sus errores y mensajes en formato JSON, y este servidor los guarda en una base SQLite.
 En resumen:
 
 * Los servicios tiran logs →
@@ -22,7 +19,6 @@ En resumen:
   pip install flask
   ```
 
-  (usa sqlite3 que ya viene con Python)
 
 ## Estructura
 
